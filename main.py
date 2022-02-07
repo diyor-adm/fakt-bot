@@ -8,7 +8,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.DEBUG)
 
-updater = Updater(token='5084781742:AAE4aq8-Iv_qZHSE2rVW1lvsRwbE5fk1ksw')
+updater = Updater(token='5084781742:AAFJHJ8BAFZwWQ-1pzZyNKFgf2IV5JjcGuY')
 job_queue = updater.job_queue
 
 def welcome(update: Update, context: CallbackContext):
